@@ -1,4 +1,5 @@
 body {
+    /* a configuration that afects the page as a whole */
     background-color: aqua;
     margin: 0;
     padding: 0;
@@ -6,6 +7,7 @@ body {
 }
 
 .wrapper {
+    /* a configuration that afects our box containing all text and buttons*/
     width: 500px;
     height: 500px;
     background-color: #333;
@@ -19,12 +21,17 @@ body {
 }
 
 .header {
+    /* a configuration that afects the header of the page*/
     color: rgb(12, 139, 12);
     text-transform: capitalize;
+    /* text tranform changes things to capital letters */
     text-align: center;
     font-weight: 140px;
     margin-top: 150px;
 }
+
+
+/* #p means id p */
 
 #p {
     text-align: center;
@@ -32,6 +39,9 @@ body {
     font-size: 20px;
     font-weight: 140px;
 }
+
+
+/* remeber h6 is a tag so we dont need any qualifier like . or # */
 
 h6 {
     text-align: center;
