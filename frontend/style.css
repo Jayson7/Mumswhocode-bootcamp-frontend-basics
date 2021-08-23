@@ -1,0 +1,71 @@
+body {
+    background-color: aqua;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.wrapper {
+    width: 500px;
+    height: 500px;
+    background-color: #333;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    /* transform: translate(-50%); */
+}
+
+.header {
+    color: rgb(12, 139, 12);
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 140px;
+    margin-top: 150px;
+}
+
+#p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 140px;
+}
+
+h6 {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 140px;
+}
+
+button {
+    text-align: center;
+    color: aqua;
+    background-color: beige;
+    padding: 20px;
+}
+
+
+/* . is for class */
+
+
+/* # is for id */
+
+
+/* for tags you dont need add anything */
+
+
+/* 
+h1 {
+    text-transform: uppercase;
+    margin: 30px;
+    padding: 40px;
+}
+
+h6 {
+    background-color: #222;
+    color: #fff;
+    text-align: right;
+} */
