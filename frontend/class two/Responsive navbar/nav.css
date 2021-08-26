@@ -1,0 +1,122 @@
+body {
+    /* a configuration that afects the page as a whole */
+    /* background-color: aqua; */
+    margin: 0;
+    padding: 0;
+    /* scroll behaviour tell a browser that whenever  a user is scrolling a page provide a smooth experience instead of jumping from one place to the other */
+    scroll-behavior: smooth;
+}
+
+
+/* navbar config */
+
+.logo {
+    color: rgb(31, 158, 158);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.logo span {
+    color: rgb(131, 93, 47);
+    text-transform: uppercase;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+
+.icons {
+    color: rgb(150, 101, 42);
+    font-size: 15px;
+    margin-right: 10px;
+    font-weight: 900;
+}
+
+.icons i {
+    margin: 5px;
+}
+
+.logo-wrapper {
+    width: 100vw;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* 
+.nav-wrapper {} */
+
+nav {
+    background-color: #000;
+    height: calc(100vh - 60px);
+    display: grid;
+    width: 70px;
+    position: fixed;
+    left: 0;
+    top: 59px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: grid;
+    align-items: center;
+    height: 100%;
+    margin-left: -35px;
+    /* text-align: center; */
+    /* background-color: blue; */
+}
+
+li {
+    list-style-type: none;
+    /* background-color: antiquewhite; */
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(31, 158, 158);
+    font-size: 20px;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: calc(50% + 40px);
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: calc(100vw - 70px);
+    transform: translate(-55%, -50%);
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-family: cursive;
+    font-weight: 900;
+}
+
+h1 span {
+    font-size: 4rem;
+    color: rgb(131, 93, 47);
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-style: oblique;
+}
+
+button {
+    padding: 10px;
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-weight: 700;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(31, 158, 158);
+}
